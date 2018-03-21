@@ -12,6 +12,7 @@ class SecurityController extends Controller
      */
     public function adminAuthAction()
     {
+        
         // To avoid the ?code= url. Can be done with Javascript.
         return $this->redirectToRoute('diary');
     }
